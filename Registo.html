@@ -1,0 +1,53 @@
+<html lang="es">
+    <head>
+        <title>Registro Petking</title>
+        <meta charset="utf-8">
+
+    </head>
+    <body>
+        <center>
+            <h1>Registro</h1>
+            <br>
+            <label for="Nombre">Nombres:</label>
+            <input type="text" name="Nombre" id="Nombre" maxlength="50">
+            <br><br>
+            <label for="Apellido">Apellidos:</label>
+            <input type="text" name="Apellidos" id="Apellidos" maxlength="50">
+            <br>
+            <p>Tipo de Documento:</p>
+            <select name="tipo_documento" id="tipo_documento">Tipo de Documento:
+                <option value="TI">Tarjeta de identidad</option>
+                <option value="CC">Cedula de Ciudadania</option>
+                <option value="CE">Cedula de Extranjeria</option>  
+            </select>
+            <br><br>
+            <label for="documento">Número de Documento:</label>
+            <input type="number" name="documento" id="documento" maxlength="15">
+            <br><br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br><br>
+            <label for="genero">Genero:</label>
+            <input type="radio" name="genero" id="genero" value="F">Femenino
+            <input type="radio" name="genero" id="genero" value="M">Masculino
+            <input type="radio" name="genero" id="genero" value="M">Otro
+            <br><br>
+            <label for="nomusuario">Nombre de Usuario:</label>
+            <input type="text" name="nomusuario" id="nomusuario" maxlength="25">
+            <br><br>
+            <label for="conusuario">Constraseña de Usuario</label>
+            <input type="password" name="conusuario" id="conusuario" maxlength="30">
+            <br><br>
+            <label for="ciudad">Ciudad de Residencia:</label>
+            <input type="text" name="ciudad" id="ciudad" maxlength="25">
+            <br><br><br>
+            <a href="./index.html"><input type="button" value="Finalizar"></a>
+            <br><br><br><br>
+            <p class="mt-5 mb-3 text-muted">&copy; PetKing Co</p>
+
+
+        </center>
+        
+    </body>
+
+</html>
